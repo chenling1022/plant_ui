@@ -61,59 +61,59 @@ class _PlantListState extends State<PlantList> {
                   'Aranda Singa Gold'),
               SizedBox(width: 15.0),
               getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/bou.jpg',
+                  'assets/images/bou.jpg',
                   'Bougainvillea'),
               SizedBox(width: 15.0),
               getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/bp.jpeg',
+                  'assets/images/bp.jpeg',
                   'Butterfly Pea'),
               SizedBox(width: 15.0),
               getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/cd.jpg',
+                  'assets/images/cd.jpg',
                   'Common Dianella'),
               SizedBox(width: 15.0),
               getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/Denfrobium.jpeg',
+                  'assets/images/Denfrobium.jpeg',
                   'Denfrobium'),
               SizedBox(width: 15.0),
               getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/Heliconia.jpeg',
+                  'assets/images/Heliconia.jpeg',
                   'Heliconia'),
               SizedBox(width: 15.0),
               getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/Licuala.jpeg',
+                  'assets/images/Licuala.jpeg',
                   'Licuala'),
               SizedBox(width: 15.0),
               getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/lp.jpg',
+                  'assets/images/lp.jpg',
                   'Lipstick Plant'),
               SizedBox(width: 15.0),
               getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/Orchid.jpg',
+                  'assets/images/Orchid.jpg',
                   'Orchid'),
               SizedBox(width: 15.0),
               getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/sl.jpg',
+                  'assets/images/sl.jpg',
                   'Simpoh Lak'),
               SizedBox(width: 15.0),
               getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/sp.jpeg',
+                  'assets/images/sp.jpeg',
                   'Sugar Palm'),
               SizedBox(width: 15.0),
               getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/sd.jpeg',
+                  'assets/images/sd.jpeg',
                   'Sun Dew'),
               SizedBox(width: 15.0),
               getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/tp.jpeg',
+                  'assets/images/tp.jpeg',
                   'Traveller\'s palm'),
               SizedBox(width: 15.0),
               getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/Wormwood.jpeg',
+                  'assets/images/Wormwood.jpeg',
                   'Wormwood'),
               SizedBox(width: 15.0),
               getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/ya.jpg',
+                  'assets/images/ya.jpg',
                   'Yarrow'),
               SizedBox(width: 15.0),
             ],

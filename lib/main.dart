@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plant_ui_522/imageClassify.dart';
 import 'package:plant_ui_522/plantslist.dart';
 
 void main() {
@@ -37,6 +38,16 @@ class _MyHomePageState extends State<MyHomePage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(child: Icon(Icons.camera),
+      backgroundColor: Colors.green[300],
+      onPressed: (){
+         Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => Classifier()),
+            );
+
+        },),
+
         body: ListView(
       children: <Widget>[
         SizedBox(height: 15.0),
