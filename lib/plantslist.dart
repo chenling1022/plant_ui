@@ -56,65 +56,35 @@ class _PlantListState extends State<PlantList> {
             controller: _scrollController,
             scrollDirection: Axis.horizontal,
             children: <Widget>[
-              getPlantCard(
-                  'assets/images/Aranda.jpg',
-                  'Aranda Singa Gold'),
+              getPlantCard('assets/images/asg.jpg', 'Aranda Singa Gold'),
               SizedBox(width: 15.0),
-              getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/bou.jpg',
-                  'Bougainvillea'),
+              getPlantCard('assets/images/bou.jpg', 'Bougainvillea'),
               SizedBox(width: 15.0),
-              getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/bp.jpeg',
-                  'Butterfly Pea'),
+              getPlantCard('assets/images/bp.jpeg', 'Butterfly Pea'),
               SizedBox(width: 15.0),
-              getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/cd.jpg',
-                  'Common Dianella'),
+              getPlantCard('assets/images/cd.jpg', 'Common Dianella'),
               SizedBox(width: 15.0),
-              getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/Denfrobium.jpeg',
-                  'Denfrobium'),
+              getPlantCard('assets/images/Denfrobium.jpeg', 'Denfrobium'),
               SizedBox(width: 15.0),
-              getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/Heliconia.jpeg',
-                  'Heliconia'),
+              getPlantCard('assets/images/Heliconia.jpeg', 'Heliconia'),
               SizedBox(width: 15.0),
-              getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/Licuala.jpeg',
-                  'Licuala'),
+              getPlantCard('assets/images/Licuala.jpeg', 'Licuala'),
               SizedBox(width: 15.0),
-              getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/lp.jpg',
-                  'Lipstick Plant'),
+              getPlantCard('assets/images/lp.jpg', 'Lipstick Plant'),
               SizedBox(width: 15.0),
-              getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/Orchid.jpg',
-                  'Orchid'),
+              getPlantCard('assets/images/Orchid.jpg', 'Orchid'),
               SizedBox(width: 15.0),
-              getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/sl.jpg',
-                  'Simpoh Lak'),
+              getPlantCard('assets/images/sl.jpg', 'Simpoh Lak'),
               SizedBox(width: 15.0),
-              getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/sp.jpeg',
-                  'Sugar Palm'),
+              getPlantCard('assets/images/sp.jpeg', 'Sugar Palm'),
               SizedBox(width: 15.0),
-              getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/sd.jpeg',
-                  'Sun Dew'),
+              getPlantCard('assets/images/sd.jpeg', 'Sun Dew'),
               SizedBox(width: 15.0),
-              getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/tp.jpeg',
-                  'Traveller\'s palm'),
+              getPlantCard('assets/images/tp.jpeg', 'Traveller\'s palm'),
               SizedBox(width: 15.0),
-              getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/Wormwood.jpeg',
-                  'Wormwood'),
+              getPlantCard('assets/images/Wormwood.jpeg', 'Wormwood'),
               SizedBox(width: 15.0),
-              getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/ya.jpg',
-                  'Yarrow'),
+              getPlantCard('assets/images/ya.jpg', 'Yarrow'),
               SizedBox(width: 15.0),
             ],
           )),
