@@ -57,7 +57,7 @@ class _PlantListState extends State<PlantList> {
             scrollDirection: Axis.horizontal,
             children: <Widget>[
               getPlantCard(
-                  '/Users/chenlingcui/Desktop/serious/plant_ui_522/assets/images/Aranda.jpg',
+                  'assets/images/Aranda.jpg',
                   'Aranda Singa Gold'),
               SizedBox(width: 15.0),
               getPlantCard(
