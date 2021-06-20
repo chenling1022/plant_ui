@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:plant_ui_522/Signin_view.dart';
 import 'package:plant_ui_522/home_page.dart';
@@ -24,11 +23,11 @@ class _RootPageState extends State<RootPage> {
   @override
   void initState() {
     super.initState();
+    print("goging through root page now");
     widget.auth.getCurrentUser().then((user) => {
           setState(() {
             // havnt logged in
-            authStatus =
-                user?.UserId == null ? Authstatus.NOT_LOGIN : Authstatus.LOGIN;
+            authStatus = user == null ? Authstatus.NOT_LOGIN : Authstatus.LOGIN;
           })
         });
   }
@@ -53,7 +52,6 @@ class _RootPageState extends State<RootPage> {
   }
 
   void _onSignedIn() {
-
     setState(() {
       authStatus = Authstatus.LOGIN;
     });

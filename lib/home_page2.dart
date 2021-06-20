@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MainPage>
 
         body: ListView(
       children: <Widget>[
-        Text("  Hello ${currentUser.name}!"),
+        //Text("  Hello ${currentUser.name}!"),
         SizedBox(height: 15.0),
         Container(
             width: MediaQuery.of(context).size.width,

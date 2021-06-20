@@ -1,4 +1,3 @@
-
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:plant_ui_522/User.dart';
 
@@ -12,6 +11,7 @@ class AuthenticationServices {
   }
 
   Future<User> getCurrentUser() async {
+    print("start of the wait to get current user");
     var firebaseUser = await _auth.currentUser();
     return User(firebaseUser?.uid, name: firebaseUser?.displayName);
   }

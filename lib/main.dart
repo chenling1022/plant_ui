@@ -4,10 +4,8 @@ import 'package:plant_ui_522/locator.dart';
 import 'package:plant_ui_522/rootPage.dart';
 
 void main() {
-  print("hi");
   setup(); // set up the services
   runApp(MyApp());
-  print("ji");
 }
 
 class MyApp extends StatelessWidget {
